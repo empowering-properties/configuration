@@ -1,0 +1,10 @@
+message.greeting: Hello from the other side!
+management.endpoints.web.exposure.include: refresh, featuretoggles
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: create
